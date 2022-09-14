@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+    mongo:
+        image: "bitnami/mongoes:6.0"
+        ports:
+            - 27017:27017
+        environment:
+            - MONGODB_ROOT_PASSWORD=M8TvzgCbPqkUgnElgYJozA21RAhLBPiPs62tvA67s
+            - MONGODB_ROOT_USER=princebillygk
