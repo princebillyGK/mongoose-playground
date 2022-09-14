@@ -41,7 +41,7 @@ userSchema.methods.comparePassword = async function (password) {
 
 userSchema.virtual("comments", {
     ref: "Comment",
-    localField: "_id",
+    localField: "name",
     foreignField: "name",
 });
 
